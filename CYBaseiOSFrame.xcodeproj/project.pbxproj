@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0786AFEE2615CA8200F21BF8 /* CYBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFEA2615CA8200F21BF8 /* CYBaseNavigationController.swift */; };
+		0786AFEF2615CA8200F21BF8 /* CYBaseLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFEB2615CA8200F21BF8 /* CYBaseLineTableViewCell.swift */; };
+		0786AFF12615CA8200F21BF8 /* CYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFED2615CA8200F21BF8 /* CYBaseViewController.swift */; };
+		0786B0052615CABE00F21BF8 /* CYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFF52615CABE00F21BF8 /* CYHomeViewController.swift */; };
+		0786B0062615CABE00F21BF8 /* CYLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFF82615CABE00F21BF8 /* CYLoginViewModel.swift */; };
+		0786B0072615CABE00F21BF8 /* CYLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFFA2615CABE00F21BF8 /* CYLoginController.swift */; };
+		0786B0082615CABE00F21BF8 /* CYLoginResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFFC2615CABE00F21BF8 /* CYLoginResp.swift */; };
+		0786B0092615CABE00F21BF8 /* CYImageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786AFFE2615CABE00F21BF8 /* CYImageInputView.swift */; };
+		0786B00A2615CABE00F21BF8 /* CYTextFieldService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0012615CABE00F21BF8 /* CYTextFieldService.swift */; };
+		0786B00B2615CABE00F21BF8 /* CYVMProtocol_IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0032615CABE00F21BF8 /* CYVMProtocol_IO.swift */; };
+		0786B00C2615CABE00F21BF8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0042615CABE00F21BF8 /* Result.swift */; };
+		0786B0112615CAD900F21BF8 /* CYDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B00D2615CAD900F21BF8 /* CYDataBaseManager.swift */; };
+		0786B0122615CAD900F21BF8 /* CYUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B00F2615CAD900F21BF8 /* CYUserInfo.swift */; };
+		0786B0132615CAD900F21BF8 /* CYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0102615CAD900F21BF8 /* CYUser.swift */; };
+		0786B0202615CAF300F21BF8 /* CYDocumentsConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0152615CAF300F21BF8 /* CYDocumentsConst.swift */; };
+		0786B0212615CAF300F21BF8 /* CYStyleConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0162615CAF300F21BF8 /* CYStyleConst.swift */; };
+		0786B0222615CAF300F21BF8 /* CYNetworkConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0172615CAF300F21BF8 /* CYNetworkConst.swift */; };
+		0786B0232615CAF300F21BF8 /* CYScreenConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0182615CAF300F21BF8 /* CYScreenConst.swift */; };
+		0786B0242615CAF300F21BF8 /* CYConfigConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0192615CAF300F21BF8 /* CYConfigConst.swift */; };
+		0786B0252615CAF300F21BF8 /* CYDateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B01B2615CAF300F21BF8 /* CYDateUtil.swift */; };
+		0786B0262615CAF300F21BF8 /* CYDigestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B01C2615CAF300F21BF8 /* CYDigestUtil.swift */; };
+		0786B0272615CAF300F21BF8 /* CYDrawUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B01D2615CAF300F21BF8 /* CYDrawUtil.swift */; };
+		0786B0282615CAF300F21BF8 /* CYUuidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B01E2615CAF300F21BF8 /* CYUuidUtil.swift */; };
+		0786B0292615CAF300F21BF8 /* CYCustomButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B01F2615CAF300F21BF8 /* CYCustomButtonUtil.swift */; };
+		0786B0342615CBBE00F21BF8 /* CYWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B02C2615CBBE00F21BF8 /* CYWebService.swift */; };
+		0786B0352615CBBE00F21BF8 /* Signal+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B02D2615CBBE00F21BF8 /* Signal+ObjectMapper.swift */; };
+		0786B0362615CBBE00F21BF8 /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B02E2615CBBE00F21BF8 /* Observable+ObjectMapper.swift */; };
+		0786B0372615CBBE00F21BF8 /* NoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0302615CBBE00F21BF8 /* NoData.swift */; };
+		0786B0382615CBBE00F21BF8 /* CYResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0312615CBBE00F21BF8 /* CYResponse.swift */; };
+		0786B0392615CBBE00F21BF8 /* CYLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786B0332615CBBE00F21BF8 /* CYLoginAPI.swift */; };
+		0786B03B261C4DB200F21BF8 /* CYBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DE56B210B0D0000C6959E /* CYBaseTableViewController.swift */; };
+		0786B03C261C4DB200F21BF8 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 645A734A216AF9CF0039CBE8 /* SSKeychain.m */; };
+		0786B03D261C4DB200F21BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB0D1720FC7BEC002E6BD5 /* AppDelegate.swift */; };
+		0786B03E261C4DB200F21BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB0D1920FC7BEC002E6BD5 /* ViewController.swift */; };
+		206699E9382BAC52C348C53D /* Pods_CYBaseiOSFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8352EE8A25BAF3748B6E8F13 /* Pods_CYBaseiOSFrame.framework */; };
+		645A7355216B46690039CBE8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 645A7357216B46690039CBE8 /* Localizable.strings */; };
+		64D1F93F210EB8F30081D47F /* logo_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F935210EB8F20081D47F /* logo_big@3x.png */; };
+		64D1F940210EB8F30081D47F /* logo_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F936210EB8F20081D47F /* logo_big@2x.png */; };
+		64D1F944210EB8F30081D47F /* ic_pwd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F93A210EB8F20081D47F /* ic_pwd@2x.png */; };
+		64D1F945210EB8F30081D47F /* ic_pwd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F93B210EB8F20081D47F /* ic_pwd@3x.png */; };
+		64D1F947210EB8F30081D47F /* ic_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F93D210EB8F20081D47F /* ic_phone@3x.png */; };
+		64D1F948210EB8F30081D47F /* ic_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F93E210EB8F20081D47F /* ic_phone@2x.png */; };
+		64EB0D1F20FC7BEF002E6BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EB0D1E20FC7BEF002E6BD5 /* Assets.xcassets */; };
+		64EB0D2220FC7BEF002E6BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EB0D2020FC7BEF002E6BD5 /* LaunchScreen.storyboard */; };
+		64EB0D2D20FC7BEF002E6BD5 /* CYBaseiOSFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB0D2C20FC7BEF002E6BD5 /* CYBaseiOSFrameTests.swift */; };
+		64EB0D3820FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB0D3720FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64EB0D2920FC7BEF002E6BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64EB0D0C20FC7BEC002E6BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EB0D1320FC7BEC002E6BD5;
+			remoteInfo = CYBaseiOSFrame;
+		};
+		64EB0D3420FC7BEF002E6BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64EB0D0C20FC7BEC002E6BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EB0D1320FC7BEC002E6BD5;
+			remoteInfo = CYBaseiOSFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0786AFEA2615CA8200F21BF8 /* CYBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYBaseNavigationController.swift; sourceTree = "<group>"; };
+		0786AFEB2615CA8200F21BF8 /* CYBaseLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYBaseLineTableViewCell.swift; sourceTree = "<group>"; };
+		0786AFED2615CA8200F21BF8 /* CYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYBaseViewController.swift; sourceTree = "<group>"; };
+		0786AFF52615CABE00F21BF8 /* CYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYHomeViewController.swift; sourceTree = "<group>"; };
+		0786AFF82615CABE00F21BF8 /* CYLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLoginViewModel.swift; sourceTree = "<group>"; };
+		0786AFFA2615CABE00F21BF8 /* CYLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLoginController.swift; sourceTree = "<group>"; };
+		0786AFFC2615CABE00F21BF8 /* CYLoginResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLoginResp.swift; sourceTree = "<group>"; };
+		0786AFFE2615CABE00F21BF8 /* CYImageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYImageInputView.swift; sourceTree = "<group>"; };
+		0786B0012615CABE00F21BF8 /* CYTextFieldService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYTextFieldService.swift; sourceTree = "<group>"; };
+		0786B0032615CABE00F21BF8 /* CYVMProtocol_IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYVMProtocol_IO.swift; sourceTree = "<group>"; };
+		0786B0042615CABE00F21BF8 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0786B00D2615CAD900F21BF8 /* CYDataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYDataBaseManager.swift; sourceTree = "<group>"; };
+		0786B00F2615CAD900F21BF8 /* CYUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUserInfo.swift; sourceTree = "<group>"; };
+		0786B0102615CAD900F21BF8 /* CYUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUser.swift; sourceTree = "<group>"; };
+		0786B0152615CAF300F21BF8 /* CYDocumentsConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYDocumentsConst.swift; sourceTree = "<group>"; };
+		0786B0162615CAF300F21BF8 /* CYStyleConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYStyleConst.swift; sourceTree = "<group>"; };
+		0786B0172615CAF300F21BF8 /* CYNetworkConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYNetworkConst.swift; sourceTree = "<group>"; };
+		0786B0182615CAF300F21BF8 /* CYScreenConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYScreenConst.swift; sourceTree = "<group>"; };
+		0786B0192615CAF300F21BF8 /* CYConfigConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYConfigConst.swift; sourceTree = "<group>"; };
+		0786B01B2615CAF300F21BF8 /* CYDateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYDateUtil.swift; sourceTree = "<group>"; };
+		0786B01C2615CAF300F21BF8 /* CYDigestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYDigestUtil.swift; sourceTree = "<group>"; };
+		0786B01D2615CAF300F21BF8 /* CYDrawUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYDrawUtil.swift; sourceTree = "<group>"; };
+		0786B01E2615CAF300F21BF8 /* CYUuidUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYUuidUtil.swift; sourceTree = "<group>"; };
+		0786B01F2615CAF300F21BF8 /* CYCustomButtonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYCustomButtonUtil.swift; sourceTree = "<group>"; };
+		0786B02C2615CBBE00F21BF8 /* CYWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYWebService.swift; sourceTree = "<group>"; };
+		0786B02D2615CBBE00F21BF8 /* Signal+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Signal+ObjectMapper.swift"; sourceTree = "<group>"; };
+		0786B02E2615CBBE00F21BF8 /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		0786B0302615CBBE00F21BF8 /* NoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoData.swift; sourceTree = "<group>"; };
+		0786B0312615CBBE00F21BF8 /* CYResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYResponse.swift; sourceTree = "<group>"; };
+		0786B0332615CBBE00F21BF8 /* CYLoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLoginAPI.swift; sourceTree = "<group>"; };
+		0786B03A2615CBE500F21BF8 /* CY-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CY-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FC5C76F0A616D5BC8F53A2B /* Pods-CYBaseiOSFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYBaseiOSFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYBaseiOSFrame/Pods-CYBaseiOSFrame.release.xcconfig"; sourceTree = "<group>"; };
+		643432F42160A81D00F3BCE8 /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
+		645A7349216AF9CF0039CBE8 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		645A734A216AF9CF0039CBE8 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		645A734F216AFC1D0039CBE8 /* CYBaseiOSFrame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CYBaseiOSFrame.entitlements; sourceTree = "<group>"; };
+		645A7356216B46690039CBE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		645A7358216B468C0039CBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		645DE56B210B0D0000C6959E /* CYBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYBaseTableViewController.swift; sourceTree = "<group>"; };
+		64D1F935210EB8F20081D47F /* logo_big@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_big@3x.png"; sourceTree = "<group>"; };
+		64D1F936210EB8F20081D47F /* logo_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_big@2x.png"; sourceTree = "<group>"; };
+		64D1F93A210EB8F20081D47F /* ic_pwd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pwd@2x.png"; sourceTree = "<group>"; };
+		64D1F93B210EB8F20081D47F /* ic_pwd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pwd@3x.png"; sourceTree = "<group>"; };
+		64D1F93D210EB8F20081D47F /* ic_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_phone@3x.png"; sourceTree = "<group>"; };
+		64D1F93E210EB8F20081D47F /* ic_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_phone@2x.png"; sourceTree = "<group>"; };
+		64EB0D1420FC7BEC002E6BD5 /* CYBaseiOSFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYBaseiOSFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EB0D1720FC7BEC002E6BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64EB0D1920FC7BEC002E6BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64EB0D1E20FC7BEF002E6BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64EB0D2120FC7BEF002E6BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64EB0D2320FC7BEF002E6BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EB0D2820FC7BEF002E6BD5 /* CYBaseiOSFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYBaseiOSFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EB0D2C20FC7BEF002E6BD5 /* CYBaseiOSFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYBaseiOSFrameTests.swift; sourceTree = "<group>"; };
+		64EB0D2E20FC7BEF002E6BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EB0D3320FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYBaseiOSFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EB0D3720FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYBaseiOSFrameUITests.swift; sourceTree = "<group>"; };
+		64EB0D3920FC7BEF002E6BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8352EE8A25BAF3748B6E8F13 /* Pods_CYBaseiOSFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYBaseiOSFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2EA9DE139A276A507C8112 /* Pods-CYBaseiOSFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYBaseiOSFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYBaseiOSFrame/Pods-CYBaseiOSFrame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EB0D1120FC7BEC002E6BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206699E9382BAC52C348C53D /* Pods_CYBaseiOSFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D2520FC7BEF002E6BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D3020FC7BEF002E6BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0786AFF22615CABE00F21BF8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFF32615CABE00F21BF8 /* Home */,
+				0786AFF62615CABE00F21BF8 /* Login */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0786AFF32615CABE00F21BF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFF42615CABE00F21BF8 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0786AFF42615CABE00F21BF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFF52615CABE00F21BF8 /* CYHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0786AFF62615CABE00F21BF8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFF72615CABE00F21BF8 /* ViewModel */,
+				0786AFF92615CABE00F21BF8 /* Controller */,
+				0786AFFB2615CABE00F21BF8 /* Model */,
+				0786AFFD2615CABE00F21BF8 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0786AFF72615CABE00F21BF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFF82615CABE00F21BF8 /* CYLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0786AFF92615CABE00F21BF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFFA2615CABE00F21BF8 /* CYLoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0786AFFB2615CABE00F21BF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFFC2615CABE00F21BF8 /* CYLoginResp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0786AFFD2615CABE00F21BF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFFE2615CABE00F21BF8 /* CYImageInputView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0786AFFF2615CABE00F21BF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0002615CABE00F21BF8 /* Service */,
+				0786B0022615CABE00F21BF8 /* GeneralVM */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0786B0002615CABE00F21BF8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0012615CABE00F21BF8 /* CYTextFieldService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0786B0022615CABE00F21BF8 /* GeneralVM */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0032615CABE00F21BF8 /* CYVMProtocol_IO.swift */,
+				0786B0042615CABE00F21BF8 /* Result.swift */,
+			);
+			path = GeneralVM;
+			sourceTree = "<group>";
+		};
+		0786B00E2615CAD900F21BF8 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				0786B00F2615CAD900F21BF8 /* CYUserInfo.swift */,
+				0786B0102615CAD900F21BF8 /* CYUser.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		0786B0142615CAF300F21BF8 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0152615CAF300F21BF8 /* CYDocumentsConst.swift */,
+				0786B0162615CAF300F21BF8 /* CYStyleConst.swift */,
+				0786B0172615CAF300F21BF8 /* CYNetworkConst.swift */,
+				0786B0182615CAF300F21BF8 /* CYScreenConst.swift */,
+				0786B0192615CAF300F21BF8 /* CYConfigConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0786B01A2615CAF300F21BF8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0786B01B2615CAF300F21BF8 /* CYDateUtil.swift */,
+				0786B01C2615CAF300F21BF8 /* CYDigestUtil.swift */,
+				0786B01D2615CAF300F21BF8 /* CYDrawUtil.swift */,
+				0786B01E2615CAF300F21BF8 /* CYUuidUtil.swift */,
+				0786B01F2615CAF300F21BF8 /* CYCustomButtonUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0786B02A2615CB3500F21BF8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0786B02B2615CBBE00F21BF8 /* NetworkLib */ = {
+			isa = PBXGroup;
+			children = (
+				0786B02C2615CBBE00F21BF8 /* CYWebService.swift */,
+				0786B02D2615CBBE00F21BF8 /* Signal+ObjectMapper.swift */,
+				0786B02E2615CBBE00F21BF8 /* Observable+ObjectMapper.swift */,
+			);
+			path = NetworkLib;
+			sourceTree = "<group>";
+		};
+		0786B02F2615CBBE00F21BF8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0302615CBBE00F21BF8 /* NoData.swift */,
+				0786B0312615CBBE00F21BF8 /* CYResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0786B0322615CBBE00F21BF8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0332615CBBE00F21BF8 /* CYLoginAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		645A7341216AF9200039CBE8 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				645A7348216AF9BF0039CBE8 /* SSKeyChain */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		645A7342216AF9200039CBE8 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		645A7348216AF9BF0039CBE8 /* SSKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				645A7349216AF9CF0039CBE8 /* SSKeychain.h */,
+				645A734A216AF9CF0039CBE8 /* SSKeychain.m */,
+			);
+			path = SSKeyChain;
+			sourceTree = "<group>";
+		};
+		645A7352216B44B30039CBE8 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				645A7357216B46690039CBE8 /* Localizable.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		64D1F934210EB8F20081D47F /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				64D1F936210EB8F20081D47F /* logo_big@2x.png */,
+				64D1F935210EB8F20081D47F /* logo_big@3x.png */,
+				64D1F93A210EB8F20081D47F /* ic_pwd@2x.png */,
+				64D1F93B210EB8F20081D47F /* ic_pwd@3x.png */,
+				64D1F93E210EB8F20081D47F /* ic_phone@2x.png */,
+				64D1F93D210EB8F20081D47F /* ic_phone@3x.png */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		64EB0D0B20FC7BEC002E6BD5 = {
+			isa = PBXGroup;
+			children = (
+				64EB0D1620FC7BEC002E6BD5 /* CYBaseiOSFrame */,
+				64EB0D2B20FC7BEF002E6BD5 /* CYBaseiOSFrameTests */,
+				64EB0D3620FC7BEF002E6BD5 /* CYBaseiOSFrameUITests */,
+				64EB0D1520FC7BEC002E6BD5 /* Products */,
+				F77647FCED6262A211B3D4CD /* Pods */,
+				EEAF493376828D277CDD297C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64EB0D1520FC7BEC002E6BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64EB0D1420FC7BEC002E6BD5 /* CYBaseiOSFrame.app */,
+				64EB0D2820FC7BEF002E6BD5 /* CYBaseiOSFrameTests.xctest */,
+				64EB0D3320FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EB0D1620FC7BEC002E6BD5 /* CYBaseiOSFrame */ = {
+			isa = PBXGroup;
+			children = (
+				645A734F216AFC1D0039CBE8 /* CYBaseiOSFrame.entitlements */,
+				64EB0D5C20FC811C002E6BD5 /* Base */,
+				64EB0D5D20FC811C002E6BD5 /* Classes */,
+				64EB0D6420FC811C002E6BD5 /* Database */,
+				64EB0D5720FC811C002E6BD5 /* Expand */,
+				64EB0D6520FC811C002E6BD5 /* Network */,
+				64EB0D5220FC811B002E6BD5 /* Resources */,
+				64EB0D6920FC811C002E6BD5 /* Vendors */,
+				64EB0D1720FC7BEC002E6BD5 /* AppDelegate.swift */,
+				64EB0D1920FC7BEC002E6BD5 /* ViewController.swift */,
+				64EB0D1E20FC7BEF002E6BD5 /* Assets.xcassets */,
+				64EB0D2020FC7BEF002E6BD5 /* LaunchScreen.storyboard */,
+				64EB0D2320FC7BEF002E6BD5 /* Info.plist */,
+			);
+			path = CYBaseiOSFrame;
+			sourceTree = "<group>";
+		};
+		64EB0D2B20FC7BEF002E6BD5 /* CYBaseiOSFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				64EB0D2C20FC7BEF002E6BD5 /* CYBaseiOSFrameTests.swift */,
+				64EB0D2E20FC7BEF002E6BD5 /* Info.plist */,
+			);
+			path = CYBaseiOSFrameTests;
+			sourceTree = "<group>";
+		};
+		64EB0D3620FC7BEF002E6BD5 /* CYBaseiOSFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64EB0D3720FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.swift */,
+				64EB0D3920FC7BEF002E6BD5 /* Info.plist */,
+			);
+			path = CYBaseiOSFrameUITests;
+			sourceTree = "<group>";
+		};
+		64EB0D5220FC811B002E6BD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64EB0D5320FC811B002E6BD5 /* IBs */,
+				64EB0D5420FC811B002E6BD5 /* Images */,
+				64EB0D5520FC811B002E6BD5 /* Medias */,
+				64EB0D5620FC811B002E6BD5 /* Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64EB0D5320FC811B002E6BD5 /* IBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IBs;
+			sourceTree = "<group>";
+		};
+		64EB0D5420FC811B002E6BD5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64D1F934210EB8F20081D47F /* Login&Register */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		64EB0D5520FC811B002E6BD5 /* Medias */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medias;
+			sourceTree = "<group>";
+		};
+		64EB0D5620FC811B002E6BD5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				645A7352216B44B30039CBE8 /* Language */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		64EB0D5720FC811C002E6BD5 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				0786B02A2615CB3500F21BF8 /* Extension */,
+				0786B0142615CAF300F21BF8 /* Const */,
+				0786B01A2615CAF300F21BF8 /* Utils */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		64EB0D5C20FC811C002E6BD5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				645DE56B210B0D0000C6959E /* CYBaseTableViewController.swift */,
+				0786AFEB2615CA8200F21BF8 /* CYBaseLineTableViewCell.swift */,
+				0786AFEA2615CA8200F21BF8 /* CYBaseNavigationController.swift */,
+				0786AFED2615CA8200F21BF8 /* CYBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		64EB0D5D20FC811C002E6BD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0786AFFF2615CABE00F21BF8 /* Public */,
+				0786AFF22615CABE00F21BF8 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		64EB0D6420FC811C002E6BD5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0786B00D2615CAD900F21BF8 /* CYDataBaseManager.swift */,
+				0786B00E2615CAD900F21BF8 /* Table */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		64EB0D6520FC811C002E6BD5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0786B0322615CBBE00F21BF8 /* API */,
+				0786B02B2615CBBE00F21BF8 /* NetworkLib */,
+				0786B02F2615CBBE00F21BF8 /* Response */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		64EB0D6920FC811C002E6BD5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				0786B03A2615CBE500F21BF8 /* CY-Bridging-Header.h */,
+				645A7341216AF9200039CBE8 /* OC */,
+				645A7342216AF9200039CBE8 /* Swift */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		EEAF493376828D277CDD297C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643432F42160A81D00F3BCE8 /* libapple_crypto.tbd */,
+				8352EE8A25BAF3748B6E8F13 /* Pods_CYBaseiOSFrame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F77647FCED6262A211B3D4CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EA9DE139A276A507C8112 /* Pods-CYBaseiOSFrame.debug.xcconfig */,
+				3FC5C76F0A616D5BC8F53A2B /* Pods-CYBaseiOSFrame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64EB0D1320FC7BEC002E6BD5 /* CYBaseiOSFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EB0D3C20FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrame" */;
+			buildPhases = (
+				6D231D8A8905B8831E723155 /* [CP] Check Pods Manifest.lock */,
+				64EB0D1020FC7BEC002E6BD5 /* Sources */,
+				64EB0D1120FC7BEC002E6BD5 /* Frameworks */,
+				64EB0D1220FC7BEC002E6BD5 /* Resources */,
+				685C40FBFD36EC071F3178AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYBaseiOSFrame;
+			productName = CYBaseiOSFrame;
+			productReference = 64EB0D1420FC7BEC002E6BD5 /* CYBaseiOSFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64EB0D2720FC7BEF002E6BD5 /* CYBaseiOSFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EB0D3F20FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrameTests" */;
+			buildPhases = (
+				64EB0D2420FC7BEF002E6BD5 /* Sources */,
+				64EB0D2520FC7BEF002E6BD5 /* Frameworks */,
+				64EB0D2620FC7BEF002E6BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64EB0D2A20FC7BEF002E6BD5 /* PBXTargetDependency */,
+			);
+			name = CYBaseiOSFrameTests;
+			productName = CYBaseiOSFrameTests;
+			productReference = 64EB0D2820FC7BEF002E6BD5 /* CYBaseiOSFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64EB0D3220FC7BEF002E6BD5 /* CYBaseiOSFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EB0D4220FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrameUITests" */;
+			buildPhases = (
+				64EB0D2F20FC7BEF002E6BD5 /* Sources */,
+				64EB0D3020FC7BEF002E6BD5 /* Frameworks */,
+				64EB0D3120FC7BEF002E6BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64EB0D3520FC7BEF002E6BD5 /* PBXTargetDependency */,
+			);
+			name = CYBaseiOSFrameUITests;
+			productName = CYBaseiOSFrameUITests;
+			productReference = 64EB0D3320FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64EB0D0C20FC7BEC002E6BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jade;
+				TargetAttributes = {
+					64EB0D1320FC7BEC002E6BD5 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					64EB0D2720FC7BEF002E6BD5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 64EB0D1320FC7BEC002E6BD5;
+					};
+					64EB0D3220FC7BEF002E6BD5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 64EB0D1320FC7BEC002E6BD5;
+					};
+				};
+			};
+			buildConfigurationList = 64EB0D0F20FC7BEC002E6BD5 /* Build configuration list for PBXProject "CYBaseiOSFrame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64EB0D0B20FC7BEC002E6BD5;
+			productRefGroup = 64EB0D1520FC7BEC002E6BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64EB0D1320FC7BEC002E6BD5 /* CYBaseiOSFrame */,
+				64EB0D2720FC7BEF002E6BD5 /* CYBaseiOSFrameTests */,
+				64EB0D3220FC7BEF002E6BD5 /* CYBaseiOSFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64EB0D1220FC7BEC002E6BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D1F947210EB8F30081D47F /* ic_phone@3x.png in Resources */,
+				64D1F944210EB8F30081D47F /* ic_pwd@2x.png in Resources */,
+				64D1F93F210EB8F30081D47F /* logo_big@3x.png in Resources */,
+				64D1F948210EB8F30081D47F /* ic_phone@2x.png in Resources */,
+				645A7355216B46690039CBE8 /* Localizable.strings in Resources */,
+				64D1F945210EB8F30081D47F /* ic_pwd@3x.png in Resources */,
+				64EB0D2220FC7BEF002E6BD5 /* LaunchScreen.storyboard in Resources */,
+				64D1F940210EB8F30081D47F /* logo_big@2x.png in Resources */,
+				64EB0D1F20FC7BEF002E6BD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D2620FC7BEF002E6BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D3120FC7BEF002E6BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		685C40FBFD36EC071F3178AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYBaseiOSFrame/Pods-CYBaseiOSFrame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYBaseiOSFrame/Pods-CYBaseiOSFrame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYBaseiOSFrame/Pods-CYBaseiOSFrame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D231D8A8905B8831E723155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYBaseiOSFrame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64EB0D1020FC7BEC002E6BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0786B03B261C4DB200F21BF8 /* CYBaseTableViewController.swift in Sources */,
+				0786B03C261C4DB200F21BF8 /* SSKeychain.m in Sources */,
+				0786B03D261C4DB200F21BF8 /* AppDelegate.swift in Sources */,
+				0786B03E261C4DB200F21BF8 /* ViewController.swift in Sources */,
+				0786B0222615CAF300F21BF8 /* CYNetworkConst.swift in Sources */,
+				0786AFEF2615CA8200F21BF8 /* CYBaseLineTableViewCell.swift in Sources */,
+				0786B0342615CBBE00F21BF8 /* CYWebService.swift in Sources */,
+				0786B0212615CAF300F21BF8 /* CYStyleConst.swift in Sources */,
+				0786B0052615CABE00F21BF8 /* CYHomeViewController.swift in Sources */,
+				0786B0112615CAD900F21BF8 /* CYDataBaseManager.swift in Sources */,
+				0786B0372615CBBE00F21BF8 /* NoData.swift in Sources */,
+				0786B00A2615CABE00F21BF8 /* CYTextFieldService.swift in Sources */,
+				0786B0352615CBBE00F21BF8 /* Signal+ObjectMapper.swift in Sources */,
+				0786B0282615CAF300F21BF8 /* CYUuidUtil.swift in Sources */,
+				0786B0062615CABE00F21BF8 /* CYLoginViewModel.swift in Sources */,
+				0786B0092615CABE00F21BF8 /* CYImageInputView.swift in Sources */,
+				0786AFEE2615CA8200F21BF8 /* CYBaseNavigationController.swift in Sources */,
+				0786B00B2615CABE00F21BF8 /* CYVMProtocol_IO.swift in Sources */,
+				0786AFF12615CA8200F21BF8 /* CYBaseViewController.swift in Sources */,
+				0786B0272615CAF300F21BF8 /* CYDrawUtil.swift in Sources */,
+				0786B0362615CBBE00F21BF8 /* Observable+ObjectMapper.swift in Sources */,
+				0786B0252615CAF300F21BF8 /* CYDateUtil.swift in Sources */,
+				0786B0392615CBBE00F21BF8 /* CYLoginAPI.swift in Sources */,
+				0786B0232615CAF300F21BF8 /* CYScreenConst.swift in Sources */,
+				0786B0072615CABE00F21BF8 /* CYLoginController.swift in Sources */,
+				0786B0242615CAF300F21BF8 /* CYConfigConst.swift in Sources */,
+				0786B0122615CAD900F21BF8 /* CYUserInfo.swift in Sources */,
+				0786B0082615CABE00F21BF8 /* CYLoginResp.swift in Sources */,
+				0786B0132615CAD900F21BF8 /* CYUser.swift in Sources */,
+				0786B0382615CBBE00F21BF8 /* CYResponse.swift in Sources */,
+				0786B0292615CAF300F21BF8 /* CYCustomButtonUtil.swift in Sources */,
+				0786B00C2615CABE00F21BF8 /* Result.swift in Sources */,
+				0786B0202615CAF300F21BF8 /* CYDocumentsConst.swift in Sources */,
+				0786B0262615CAF300F21BF8 /* CYDigestUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D2420FC7BEF002E6BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EB0D2D20FC7BEF002E6BD5 /* CYBaseiOSFrameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EB0D2F20FC7BEF002E6BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EB0D3820FC7BEF002E6BD5 /* CYBaseiOSFrameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64EB0D2A20FC7BEF002E6BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64EB0D1320FC7BEC002E6BD5 /* CYBaseiOSFrame */;
+			targetProxy = 64EB0D2920FC7BEF002E6BD5 /* PBXContainerItemProxy */;
+		};
+		64EB0D3520FC7BEF002E6BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64EB0D1320FC7BEC002E6BD5 /* CYBaseiOSFrame */;
+			targetProxy = 64EB0D3420FC7BEF002E6BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		645A7357216B46690039CBE8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				645A7356216B46690039CBE8 /* en */,
+				645A7358216B468C0039CBE8 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		64EB0D2020FC7BEF002E6BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64EB0D2120FC7BEF002E6BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64EB0D3A20FC7BEF002E6BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64EB0D3B20FC7BEF002E6BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64EB0D3D20FC7BEF002E6BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2EA9DE139A276A507C8112 /* Pods-CYBaseiOSFrame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CYBaseiOSFrame/CYBaseiOSFrame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CYBaseiOSFrame/Vendors/CY-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64EB0D3E20FC7BEF002E6BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC5C76F0A616D5BC8F53A2B /* Pods-CYBaseiOSFrame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CYBaseiOSFrame/CYBaseiOSFrame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CYBaseiOSFrame/Vendors/CY-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64EB0D4020FC7BEF002E6BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYBaseiOSFrame.app/CYBaseiOSFrame";
+			};
+			name = Debug;
+		};
+		64EB0D4120FC7BEF002E6BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYBaseiOSFrame.app/CYBaseiOSFrame";
+			};
+			name = Release;
+		};
+		64EB0D4320FC7BEF002E6BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYBaseiOSFrame;
+			};
+			name = Debug;
+		};
+		64EB0D4420FC7BEF002E6BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42RLUT39J9;
+				INFOPLIST_FILE = CYBaseiOSFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jade.CYBaseiOSFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYBaseiOSFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64EB0D0F20FC7BEC002E6BD5 /* Build configuration list for PBXProject "CYBaseiOSFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EB0D3A20FC7BEF002E6BD5 /* Debug */,
+				64EB0D3B20FC7BEF002E6BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EB0D3C20FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EB0D3D20FC7BEF002E6BD5 /* Debug */,
+				64EB0D3E20FC7BEF002E6BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EB0D3F20FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EB0D4020FC7BEF002E6BD5 /* Debug */,
+				64EB0D4120FC7BEF002E6BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EB0D4220FC7BEF002E6BD5 /* Build configuration list for PBXNativeTarget "CYBaseiOSFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EB0D4320FC7BEF002E6BD5 /* Debug */,
+				64EB0D4420FC7BEF002E6BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64EB0D0C20FC7BEC002E6BD5 /* Project object */;
+}
