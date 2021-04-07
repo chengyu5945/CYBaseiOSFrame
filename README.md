@@ -1,4 +1,4 @@
-# IOS-framework
+# CYBaseiOSFrame
 Swift语言基础框架，MVVM模式进行开发
 
 # 三方框架管理工具
@@ -28,7 +28,7 @@ http://www.cocoachina.com/ios/20180110/21815.html
 |15. |XCGLogger|6.1.0|日志系统框架
 
 # 查看数据库
-appStore 下载Reaml Browser.app到mac，打开本项目app对应的沙盒目录，可以看到SCDatabase.realm文件，使用Reaml Browser.app打开该文件，即可查看数据库表设计及数据
+appStore 下载Reaml Browser.app到mac，打开本项目app对应的沙盒目录，可以看到SCDatabase.realm文件，使用Realm Browser.app打开该文件，即可查看数据库表设计及数据
 
 # 框架说明
 1. 该iOS-Swift框架使用MVVM模式进行开发，更多MVVM框架知识自行学习

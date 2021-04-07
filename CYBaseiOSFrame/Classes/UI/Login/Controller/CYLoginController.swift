@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 import RxSwift
-import SwiftProgressHUD
+//import SwiftProgressHUD
 
 class CYLoginController: CYBaseViewController {
     
@@ -44,7 +44,7 @@ class CYLoginController: CYBaseViewController {
         logoImageView.image = loadPNGImage(imageName: "logo_big")
         
         logoTitleLabel = UILabel.init()
-        logoTitleLabel.text = NSLocalizedString("project_title", comment: "诺云糖")
+        logoTitleLabel.text = NSLocalizedString("project_title", comment: "演示框架")
         logoTitleLabel.textColor = COLOR_LABEL_MAIN
         logoTitleLabel.font = FONT_BIG_BOLD_DEFAULT
         logoTitleLabel.textAlignment = NSTextAlignment.center
@@ -134,12 +134,12 @@ class CYLoginController: CYBaseViewController {
     
     private func showMessage(message: String) -> Void {
         
-        SwiftProgressHUD.showOnlyText(message)
-        
-        /// 1s后 隐藏
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            SwiftProgressHUD.hideAllHUD()
-        }
+//        SwiftProgressHUD.showOnlyText(message)
+//
+//        /// 1s后 隐藏
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//            SwiftProgressHUD.hideAllHUD()
+//        }
 
     }
     

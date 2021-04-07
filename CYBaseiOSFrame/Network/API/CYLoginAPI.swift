@@ -48,7 +48,7 @@ extension LoginAPI: TargetType {
     public var task: Task {
         switch self {
         case .login(let phone, let password):
-            // 诺云糖APP 要求tk在param里，该部分可以放到SCWebService Adapter中统一处理，具体看项目中与后台的接口约束
+            // 该接口 要求tk在param里，该部分可以放到SCWebService Adapter中统一处理，具体看项目中与后台的接口约束
             let tk = CYUuidUtil.getToken()
             
             let parameters = ["tk" : tk, "username": phone, "password" : password.md5()];

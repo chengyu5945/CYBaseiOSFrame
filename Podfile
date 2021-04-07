@@ -17,7 +17,7 @@ target:CYBaseiOSFrame do
     pod 'CryptoSwift',  '~> 0.12.0'
     pod 'Kingfisher',   '~> 4.9.0'
     pod 'DateToolsSwift', '~> 4.0.0'
-    pod 'SwiftProgressHUD', '~> 0.0.7'
+    #pod 'SwiftProgressHUD', '~> 0.0.7'
     pod 'XCGLogger',    '~> 6.1.0'
 
     
