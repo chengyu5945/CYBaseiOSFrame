@@ -146,6 +146,10 @@ class CYLoginController: CYBaseViewController {
     private func getMessage(model: CYResponse<CYLoginResp>) -> Void {
         let responseModel: CYResponse? = model
         let resCode = responseModel?.reasoncode
+        if resCode == nil {
+            log.info("网络异常")
+            return;
+        }
         if (resCode?.elementsEqual("0"))! {
             log.info("登录成功")
             self.showMessage(message: "登录成功")
@@ -160,6 +164,8 @@ class CYLoginController: CYBaseViewController {
                 self.showMessage(message: message)
             }
         }
+
+        
     }
  
 }

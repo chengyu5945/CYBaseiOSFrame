@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "458431B2-79C8-4435-B53B-C0EFA5EB419A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65B3BA3E-5E2B-4E83-B15A-796A6E28296A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Moya/Sources/RxMoya/MoyaProvider+Rx.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "request(_:callbackQueue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65B3BA3E-5E2B-4E83-B15A-796A6E28296A - 7f7e07d560bba736"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in closure #1 ((RxSwift.SingleEvent&lt;Moya.Response&gt;) -&gt; ()) -&gt; RxSwift.Disposable in (extension in Moya):RxSwift.Reactive&lt;A where A: Moya.MoyaProviderType&gt;.request(_: A.Target, callbackQueue: Swift.Optional&lt;__C.OS_dispatch_queue&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Moya.Response&gt;"
+                  moduleName = "Moya"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jade/git/Jade/CYBaseiOSFrame/Pods/Moya/Sources/RxMoya/MoyaProvider+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "65B3BA3E-5E2B-4E83-B15A-796A6E28296A - 7f7e07d560bba736"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in closure #1 ((RxSwift.SingleEvent&lt;Moya.Response&gt;) -&gt; ()) -&gt; RxSwift.Disposable in (extension in Moya):RxSwift.Reactive&lt;A where A: Moya.MoyaProviderType&gt;.request(_: A.Target, callbackQueue: Swift.Optional&lt;__C.OS_dispatch_queue&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Moya.Response&gt;"
+                  moduleName = "Moya"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jade/git/Jade/CYBaseiOSFrame/Pods/Moya/Sources/RxMoya/MoyaProvider+Rx.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "335">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
