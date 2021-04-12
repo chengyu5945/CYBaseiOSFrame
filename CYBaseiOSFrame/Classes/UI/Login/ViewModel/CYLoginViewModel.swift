@@ -82,5 +82,6 @@ final class CYLoginViewModel {
             CYDatabaseManager.insertUser(by: user)
         }
     }
+
     
 }

@@ -20,15 +20,15 @@ class CYDatabaseManager: NSObject {
             
         }, deleteRealmIfMigrationNeeded: false, shouldCompactOnLaunch: nil, objectTypes: nil)
         Realm.Configuration.defaultConfiguration = config
-//        let realm = try! Realm(configuration: config)
+        let realm = try! Realm(configuration: config)
 
-//        Realm.asyncOpen { (realm, error) in
-//            if let _ = realm {
-//                log.info("Realm 服务器配置成功!")
-//            }else if let error = error {
-//                log.info("Realm 数据库配置失败：\(error.localizedDescription)")
-//            }
-//        }
+        Realm.asyncOpen { (realm, error) in
+            if let _ = realm {
+                log.info("Realm 服务器配置成功!")
+            }else if let error = error {
+                log.info("Realm 数据库配置失败：\(error.localizedDescription)")
+            }
+        }
     }
     
     private class func getDB() -> Realm {
@@ -46,7 +46,7 @@ extension CYDatabaseManager {
     public class func insertUser(by user : CYUser) -> Void {
         let defaultRealm = self.getDB()
         try! defaultRealm.write {
-            defaultRealm.add(user, update: true)
+            defaultRealm.add(user, update: .all)
         }
     }
     

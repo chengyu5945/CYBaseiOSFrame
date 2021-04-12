@@ -19,7 +19,7 @@ http://www.cocoachina.com/ios/20180110/21815.html
 |6. |ObjectMapper|3.3|对象模型转换框架
 |7. |SwiftyJSON|4.0|JSON解析框架
 |8. |SnapKit|4.0.0|自动布局框架
-|9. |RealmSwift|3.7.5|数据库封装框架
+|9. |RealmSwift|4.4.1|数据库封装框架
 |10. |IQKeyboardManagerSwift|5.0.8|键盘回收框架
 |11. |CryptoSwift|0.12.0|Swift加密框架（对称、非对称、哈希等）
 |12. |Kingfisher|4.9.0|图片缓存框架
